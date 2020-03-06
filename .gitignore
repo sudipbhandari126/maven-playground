@@ -1,0 +1,41 @@
+# IDE
+
+## eclipse
+.project
+.classpath
+.settings
+.metadata
+
+## idea
+.idea
+*.iml
+
+## vscode
+.vscode
+
+
+## Build Tool
+# gradle
+
+.gradle
+build
+out
+bin
+.gradletasknamecache #gradle cache
+
+# maven
+target
+
+# common files
+*.zip
+*.tar
+*.log
+*.class
+${sys:log.path}
+
+# OS file
+.DS_Store
+
+# log folder
+log.path_IS_UNDEFINED/
+logs/
